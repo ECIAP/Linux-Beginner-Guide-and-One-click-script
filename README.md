@@ -1,4 +1,4 @@
-# Linux-novice-one-click-script-summary
+# Linux-Beginner-Guide-and-One-click-script
 ### 减少敲指令的繁琐  (Only Centos , Debian and Ubuntu)(需要Root权限)
 ### 给接触Linux的新手的一个简单的全书(???)
 ### 本文可能非常长,请妥善运用页面搜索功能(Ctrl + F) / 前往 [Wiki](https://github.com/ECIAP/Linux-novice-one-click-script-summary/wiki) 
