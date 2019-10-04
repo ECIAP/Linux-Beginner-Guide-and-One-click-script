@@ -49,8 +49,19 @@
        * 硬盘与实际大小不符时可运行(参考:https://mengniuge.com/vps-resize2fs.html) 
      
              resize2fs /dev/vda1   /dev/vda1替换为你要修正的硬盘
-     
+             
+* 简单查看磁盘分区
 
+      fdisk -l
+      
+     * 等待输出
+     
+* 简单查看CPU
+ 
+      lscpu
+
+    * 等待输出
+    
 --------------
 
 * 一键添加swap脚本 (from:https://www.moerats.com/archives/722/)
