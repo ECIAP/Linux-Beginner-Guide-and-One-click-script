@@ -1,6 +1,6 @@
 # Linux-novice-one-click-script-summary
 ### 减少敲指令的繁琐  (Only Centos , Debian and Ubuntu)(需要Root权限)
-### 本文可能非常长,请妥善运用页面搜索功能(Ctrl + F)
+### 本文可能非常长,请妥善运用页面搜索功能(Ctrl + F) / 前往 [Wiki](https://github.com/ECIAP/Linux-novice-one-click-script-summary/wiki)  
 --------------
 
 #### 非常基础的检查 与 一键脚本
