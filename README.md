@@ -1,5 +1,5 @@
 # Linux-novice-one-click-script-summary
-减少敲指令的繁琐  (Only Centos Debian Ubuntu)
+## 减少敲指令的繁琐  (Only Centos Debian Ubuntu)(Requires root privileges)
 
 * 查看当前Linux系统
 
