@@ -28,6 +28,27 @@
         Centos:yum -y install virt-what
         
       * 输入virt-what等待输出 输出内容通常为:kvm/openvz/xen/Hyper-v/... 代表意义请自行Google / Baidu / Bing 
+      
+* 简单查看内存(包含Mem 与 Swap)
+  
+      free -h
+      
+     * 等待输出 通常为以下格式
+                  
+                     total(总量)  used(已占用)free(空闲)  shared  buff/cache   available
+      Mem:             1G         0M          1G          0K         0M          0M
+      Swap:            2G         0M          2G
+
+* 简单查看硬盘
+
+      df -h
+      
+     * 等待输出
+     
+       * 硬盘与实际大小不符时可运行(参考:https://mengniuge.com/vps-resize2fs.html) 
+     
+             resize2fs /dev/vda1   /dev/vda1替换为你要修正的硬盘
+     
 
 --------------
 
