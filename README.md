@@ -1,6 +1,6 @@
 # Linux-novice-one-click-script-summary
 ### 减少敲指令的繁琐  (Only Centos , Debian and Ubuntu)(需要Root权限)
-
+### 本文可能非常长,请妥善运用页面搜索功能(Ctrl + F)
 * 查看当前Linux系统
 
   *    lsb_release -a
