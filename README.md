@@ -1,6 +1,10 @@
 # Linux-novice-one-click-script-summary
 ### 减少敲指令的繁琐  (Only Centos , Debian and Ubuntu)(需要Root权限)
 ### 本文可能非常长,请妥善运用页面搜索功能(Ctrl + F)
+--------------
+
+#### 非常基础的检查 与 一键脚本
+
 * 查看当前Linux系统
 
   *    lsb_release -a
@@ -14,6 +18,17 @@
                Debian:apt-get -y install wget
                Ubuntu:apt-get -y install wget
                Centos:yum -y install wget
+                           
+* 查看VPS虚拟化技术
+
+  * 安装virt-what
+   
+        Debian:apt -y install virt-what
+        Ubuntu:apt -y install virt-what
+        Centos:yum -y install virt-what
+        
+      * 输入virt-what等待输出 输出内容通常为:kvm/openvz/xen/Hyper-v/... 代表意义请自行Google / Baidu / Bing 
+
 --------------
 
 * 一键添加swap脚本 (from:https://www.moerats.com/archives/722/)
